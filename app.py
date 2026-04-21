@@ -161,7 +161,7 @@ counterfactual_ci_high = baseline_ci_high * 2.0
 
 st.write(
     f"If treatment intensity doubled, the estimated effect would be "
-    f"**${counterfactual_ate:,.0f}** per participant "
+    f"**${counterfactual_ate:,.0f} per participant** "
     f"(95% CI: **[${counterfactual_ci_low:,.0f}, ${counterfactual_ci_high:,.0f}]**)."
 )
 
