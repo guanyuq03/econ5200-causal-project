@@ -165,7 +165,7 @@ counterfactual_text = (
     f"(95% CI: [${counterfactual_ci_low:,.0f}, ${counterfactual_ci_high:,.0f}])."
 )
 
-st.write(counterfactual_text)
+st.text(counterfactual_text)
 # -----------------------------
 # Interpretation Box
 # -----------------------------
